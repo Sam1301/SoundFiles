@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SoundFiles</string>
+    <string name="MainActivityName">Folders</string>
+    <string name="todo_main_activity">Displays folders containing sound files in alphabetical
+        order. For example : Camera, Recordings, Whatsapp, etc.</string>
+    <string name="hurdle1_main_activity">1) Auto-detect folders containing sound files on the
+        device</string>
+    <string name="hurdle2_main_activity">2) Generate a sorted list of detected folders</string>
+    <string name="hurdle3_main_activity">3) Display the sorted list on the screen</string>
+    <string name="FolderActivityName">Folder Name</string>
+    <string name="todo_folder_activity">Displays the sound files in alphabetical order in the
+        folder along with their associated pictures.</string>
+    <string name="hurdle1_folder_activity">1) Detect sound files and their meta data like pictures
+        in that folder.</string>
+    <string name="hurdle2_folder_activity">2) Sort the generated list of sound files</string>
+    <string name="hurdle3_folder_activity">3) Display the sorted list of sound files with their
+        pic and file name alongside.</string>
+    <string name="NowPlayingActivityName">Sound File Name</string>
+    <string name="todo_nowplaying_activity">Plays the sound file and displays the album cover if
+        available and has player options like play/pause, previous, next. In addition, sound files
+        can also be shared and deleted.</string>
+    <string name="hurdle1_nowplaying_activity">1) Play the sound file at a given location on
+        device. Also display the album cover if available.</string>
+    <string name="hurdle2_nowplaying_activity">2) Associate play/pause, prev, next options</string>
+    <string name="hurdle3_nowplaying_activity">3) Implement share and delete options</string>
+    <string name="plan1_main_activity">1) Retrieve data from content provider MediaStore.</string>
+    <string name="plan2_main_activity">2) Use ListView to display a list of folders.</string>
+    <string name="plan2_folder_activity">1) Use listView to display a list of audio files.</string>
+    <string name="plan1_nowplaying_activity">1) Use MediaPlayer class to play music at a given location.</string>
+    <string name="plan2_nowplaying_activity">2) Use MediaStore for album art.</string>
+    <string name="plan3_nowplaying_activity">3) Start a Service using service abstract class.</string>
+    <string name="plan4_nowplaying_activity">4) Use ShareActionProvider to share sound file.</string>
+    <string name="plan_text">PLAN:</string>
+    <string name="hurdles_text">HURDLES:</string>
+    <string name="todo_text">TODO:</string>
+</resources>
